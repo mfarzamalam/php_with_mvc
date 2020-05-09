@@ -6,9 +6,9 @@ class Model {
     public function getBookDetails() {
         
         $library = array(
-            "first"=>new Book('40 rules of love','Elik shafak','350'),
-            "second"=>new Book('The game ','Neil strauss','468'),
-            "third"=>new Book('The game ','Neil strauss','468')
+            "40 rules of love"=>new Book('40 rules of love','Elik shafak','350'),
+            "The game"=>new Book('The game ','Neil strauss','468'),
+            "Subtle art of not giving a fuck"=>new Book('Subtle art of not giving a fuck','Mark manson','270')
         );
 
         return $library;
