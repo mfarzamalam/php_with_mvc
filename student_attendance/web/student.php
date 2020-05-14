@@ -1,9 +1,11 @@
 <?php require_once "web/header.php" ; ?>
+<style>
+
+</style>
 
 <div style="margin-top: 30px;">
     <a href="index.php?action=student-add">Add Student</a>
     <table>
-        <thead>
             <tr>
                 <th>Student Name</th>
                 <th>Roll Number</th>
@@ -11,9 +13,7 @@
                 <th><strong>Class</strong></th>
                 <th><strong>Action</strong></th>
             </tr>
-        </thead>
 
-        <tbody>
             <?php 
                 if(!empty($result)){
 
@@ -32,7 +32,6 @@
             </tr>
                     <?php } } ?>
 
-        </tbody>
     </table>
 </div>
 
